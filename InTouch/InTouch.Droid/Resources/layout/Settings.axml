@@ -8,58 +8,63 @@
         android:layout_width="match_parent"
         android:layout_height="231.0dp"
         android:id="@+id/imageView1" />
-    <TextView
+    <Button
         android:text="edit profile picture"
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textView1" />
+        android:id="@+id/button1" />
     <TextView
         android:text="location updates"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textView2" />
+        android:id="@+id/textView1" />
+    <Chronometer
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/chronometer1"
+        android:layout_marginLeft="0.0dp" />
     <TextView
         android:text="notification sound"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textView3" />
-    <TextView
+        android:id="@+id/textView2" />
+    <Button
         android:text="default"
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textView4" />
+        android:id="@+id/button02" />
     <TextView
         android:text="vibration"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textView5" />
-    <TextView
+        android:id="@+id/textView3" />
+    <Button
         android:text="short"
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textView6" />
+        android:id="@+id/button03" />
     <TextView
         android:text="light"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textView7" />
-    <TextView
+        android:id="@+id/textView4" />
+    <Button
         android:text="white"
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textView8" />
-    <TextView
+        android:id="@+id/button04" />
+    <Button
         android:text="edit quick answers"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textView9" />
+        android:id="@+id/Button05" />
 </LinearLayout>
