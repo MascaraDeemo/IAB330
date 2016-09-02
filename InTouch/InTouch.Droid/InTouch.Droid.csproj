@@ -109,6 +109,12 @@
     <AndroidResource Include="Resources\layout\Settings.axml" />
     <AndroidResource Include="Resources\layout\Contacts.axml" />
     <AndroidResource Include="Resources\drawable\buttonshape.xml" />
+    <AndroidResource Include="Resources\drawable\IMG_0788.JPG" />
+    <AndroidResource Include="Resources\drawable\IMG_0906.JPG" />
+    <AndroidResource Include="Resources\drawable\IMG_0907.JPG" />
+    <AndroidResource Include="Resources\drawable\IMG_1192.JPG" />
+    <AndroidResource Include="Resources\drawable\IMG_1401.JPG" />
+    <AndroidResource Include="Resources\drawable\IMG_1819.JPG" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\InTouch.Core\InTouch.Core.csproj">
