@@ -118,6 +118,8 @@
     <AndroidResource Include="Resources\drawable\IMG_1192.JPG" />
     <AndroidResource Include="Resources\drawable\IMG_1401.JPG" />
     <AndroidResource Include="Resources\drawable\IMG_1819.JPG" />
+    <AndroidResource Include="Resources\layout\PersonalProfile.axml" />
+    <AndroidResource Include="Resources\drawable\IMG_2500.JPG" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\InTouch.Core\InTouch.Core.csproj">
