@@ -5,74 +5,100 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:minWidth="25px"
-    android:minHeight="25px">
+    android:minHeight="25px"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp">
+    <ImageView
+        android:src="@android:drawable/ic_menu_gallery"
+        android:layout_width="match_parent"
+        android:layout_height="210.5dp"
+        android:id="@+id/imageView1" />
+    <Button
+        android:text="edit profile picture"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button1" />
     <LinearLayout
-        android:orientation="horizontal"
+        android:orientation="vertical"
         android:minWidth="25px"
         android:minHeight="25px"
         android:layout_width="match_parent"
-        android:layout_height="250dp"
+        android:layout_height="wrap_content"
         android:id="@+id/linearLayout1">
-        <ImageView
-            android:src="@drawable/IMG_2500"
+        <LinearLayout
+            android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="249.5dp"
-            android:scaleType="centerCrop"
-            android:id="@+id/imageView1" />
-    </LinearLayout>
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="52.5dp"
-        android:id="@+id/linearLayout4">
-        <TextView
-            android:text="location updates"
-            android:layout_width="296.0dp"
-            android:layout_height="match_parent"
-            android:id="@+id/textView3"
-            android:gravity="center" />
-        <Button
-            android:text="Call"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:id="@+id/button1" />
-    </LinearLayout>
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="52.5dp"
-        android:id="@+id/linearLayout4">
-        <TextView
-            android:text="notification sound"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout2">
+            <TextView
+                android:text="location updates"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="285.0dp"
+                android:layout_height="match_parent"
+                android:id="@+id/textView1"
+                android:layout_marginBottom="0.0dp" />
+            <Button
+                android:text="5 min"
+                android:layout_width="86.5dp"
+                android:layout_height="match_parent"
+                android:id="@+id/button2"
+                android:layout_marginBottom="0.0dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:id="@+id/textView3"
-            android:gravity="center" />
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout3">
+            <TextView
+                android:text="notifications"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="default"
+                android:layout_width="wrap_content"
+                android:layout_height="40.0dp"
+                android:id="@+id/button3" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout4">
+            <TextView
+                android:text="vibration"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView3" />
+            <Button
+                android:text="short"
+                android:layout_width="wrap_content"
+                android:layout_height="40.0dp"
+                android:id="@+id/button4" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout5">
+            <TextView
+                android:text="light"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView6" />
+            <Button
+                android:text="white"
+                android:layout_width="wrap_content"
+                android:layout_height="40.0dp"
+                android:id="@+id/button5" />
+        </LinearLayout>
     </LinearLayout>
-    <LinearLayout
-        android:orientation="horizontal"
-        android:minWidth="25px"
-        android:minHeight="25px"
+    <Button
+        android:text="edit quick answers"
         android:layout_width="match_parent"
-        android:layout_height="52.5dp"
-        android:id="@+id/linearLayout4">
-        <TextView
-            android:text="vibration"
-            android:layout_width="296.0dp"
-            android:layout_height="match_parent"
-            android:id="@+id/textView3"
-            android:gravity="center" />
-    </LinearLayout>
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="52.5dp"
-        android:id="@+id/linearLayout4">
-        <TextView
-            android:text="light"
-            android:layout_width="296.0dp"
-            android:layout_height="match_parent"
-            android:id="@+id/textView3"
-            android:gravity="center" />
-    </LinearLayout>
+        android:layout_height="wrap_content"
+        android:id="@+id/button6" />
 </LinearLayout>
