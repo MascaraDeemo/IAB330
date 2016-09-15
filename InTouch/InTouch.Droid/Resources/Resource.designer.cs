@@ -904,29 +904,23 @@ namespace InTouch.Droid
 			// aapt resource value: 0x7f090011
 			public const int always = 2131296273;
 			
-			// aapt resource value: 0x7f09004b
-			public const int back_btn = 2131296331;
+			// aapt resource value: 0x7f09004a
+			public const int back_btn = 2131296330;
 			
 			// aapt resource value: 0x7f090018
 			public const int beginning = 2131296280;
 			
+			// aapt resource value: 0x7f09004f
+			public const int button1 = 2131296335;
+			
 			// aapt resource value: 0x7f090050
-			public const int button1 = 2131296336;
+			public const int button2 = 2131296336;
 			
 			// aapt resource value: 0x7f090051
-			public const int button2 = 2131296337;
+			public const int button3 = 2131296337;
 			
-			// aapt resource value: 0x7f090052
-			public const int button3 = 2131296338;
-			
-			// aapt resource value: 0x7f090054
-			public const int button4 = 2131296340;
-			
-			// aapt resource value: 0x7f090057
-			public const int button5 = 2131296343;
-			
-			// aapt resource value: 0x7f090058
-			public const int button6 = 2131296344;
+			// aapt resource value: 0x7f090053
+			public const int button6 = 2131296339;
 			
 			// aapt resource value: 0x7f09002f
 			public const int checkbox = 2131296303;
@@ -934,11 +928,11 @@ namespace InTouch.Droid
 			// aapt resource value: 0x7f090012
 			public const int collapseActionView = 2131296274;
 			
-			// aapt resource value: 0x7f090043
-			public const int contactRow_ll = 2131296323;
+			// aapt resource value: 0x7f090042
+			public const int contactRow_ll = 2131296322;
 			
-			// aapt resource value: 0x7f090041
-			public const int contacts_txtvw = 2131296321;
+			// aapt resource value: 0x7f090040
+			public const int contacts_txtvw = 2131296320;
 			
 			// aapt resource value: 0x7f09002a
 			public const int default_activity_button = 2131296298;
@@ -952,11 +946,14 @@ namespace InTouch.Droid
 			// aapt resource value: 0x7f090017
 			public const int dropdown = 2131296279;
 			
-			// aapt resource value: 0x7f090059
-			public const int editText1 = 2131296345;
+			// aapt resource value: 0x7f090052
+			public const int editPicture_btn = 2131296338;
 			
-			// aapt resource value: 0x7f09005f
-			public const int editText2 = 2131296351;
+			// aapt resource value: 0x7f090054
+			public const int editText1 = 2131296340;
+			
+			// aapt resource value: 0x7f09005a
+			public const int editText2 = 2131296346;
 			
 			// aapt resource value: 0x7f090032
 			public const int edit_query = 2131296306;
@@ -970,8 +967,8 @@ namespace InTouch.Droid
 			// aapt resource value: 0x7f09002e
 			public const int expanded_menu = 2131296302;
 			
-			// aapt resource value: 0x7f09003f
-			public const int header_ll = 2131296319;
+			// aapt resource value: 0x7f09003e
+			public const int header_ll = 2131296318;
 			
 			// aapt resource value: 0x7f090000
 			public const int home = 2131296256;
@@ -988,32 +985,23 @@ namespace InTouch.Droid
 			// aapt resource value: 0x7f090029
 			public const int image = 2131296297;
 			
-			// aapt resource value: 0x7f09004d
-			public const int imageView1 = 2131296333;
-			
 			// aapt resource value: 0x7f09004c
-			public const int linearLayout1 = 2131296332;
+			public const int imageView1 = 2131296332;
 			
-			// aapt resource value: 0x7f09004a
-			public const int linearLayout2 = 2131296330;
+			// aapt resource value: 0x7f09004b
+			public const int linearLayout1 = 2131296331;
 			
-			// aapt resource value: 0x7f090053
-			public const int linearLayout3 = 2131296339;
+			// aapt resource value: 0x7f090049
+			public const int linearLayout2 = 2131296329;
 			
-			// aapt resource value: 0x7f09004f
-			public const int linearLayout4 = 2131296335;
-			
-			// aapt resource value: 0x7f090055
-			public const int linearLayout5 = 2131296341;
+			// aapt resource value: 0x7f09004e
+			public const int linearLayout4 = 2131296334;
 			
 			// aapt resource value: 0x7f090008
 			public const int listMode = 2131296264;
 			
 			// aapt resource value: 0x7f09002b
 			public const int list_item = 2131296299;
-			
-			// aapt resource value: 0x7f09003e
-			public const int main_ll = 2131296318;
 			
 			// aapt resource value: 0x7f09001a
 			public const int middle = 2131296282;
@@ -1027,8 +1015,8 @@ namespace InTouch.Droid
 			// aapt resource value: 0x7f090009
 			public const int normal = 2131296265;
 			
-			// aapt resource value: 0x7f090044
-			public const int profilePicture_iv = 2131296324;
+			// aapt resource value: 0x7f090043
+			public const int profilePicture_iv = 2131296323;
 			
 			// aapt resource value: 0x7f090004
 			public const int progress_circular = 2131296260;
@@ -1036,26 +1024,26 @@ namespace InTouch.Droid
 			// aapt resource value: 0x7f090005
 			public const int progress_horizontal = 2131296261;
 			
-			// aapt resource value: 0x7f090049
-			public const int quickrequest_btn = 2131296329;
+			// aapt resource value: 0x7f090048
+			public const int quickrequest_btn = 2131296328;
 			
 			// aapt resource value: 0x7f090031
 			public const int radio = 2131296305;
 			
-			// aapt resource value: 0x7f09005b
-			public const int radioButton1 = 2131296347;
+			// aapt resource value: 0x7f090056
+			public const int radioButton1 = 2131296342;
 			
-			// aapt resource value: 0x7f09005c
-			public const int radioButton2 = 2131296348;
+			// aapt resource value: 0x7f090057
+			public const int radioButton2 = 2131296343;
 			
-			// aapt resource value: 0x7f09005d
-			public const int radioButton3 = 2131296349;
+			// aapt resource value: 0x7f090058
+			public const int radioButton3 = 2131296344;
 			
-			// aapt resource value: 0x7f09005a
-			public const int radioGroup1 = 2131296346;
+			// aapt resource value: 0x7f090055
+			public const int radioGroup1 = 2131296341;
 			
-			// aapt resource value: 0x7f090048
-			public const int request_btn = 2131296328;
+			// aapt resource value: 0x7f090047
+			public const int request_btn = 2131296327;
 			
 			// aapt resource value: 0x7f090034
 			public const int search_badge = 2131296308;
@@ -1087,8 +1075,8 @@ namespace InTouch.Droid
 			// aapt resource value: 0x7f09003d
 			public const int search_voice_btn = 2131296317;
 			
-			// aapt resource value: 0x7f090040
-			public const int settings_btn = 2131296320;
+			// aapt resource value: 0x7f09003f
+			public const int settings_btn = 2131296319;
 			
 			// aapt resource value: 0x7f090030
 			public const int shortcut = 2131296304;
@@ -1105,35 +1093,32 @@ namespace InTouch.Droid
 			// aapt resource value: 0x7f090020
 			public const int split_action_bar = 2131296288;
 			
-			// aapt resource value: 0x7f090042
-			public const int status_btn = 2131296322;
+			// aapt resource value: 0x7f090041
+			public const int status_btn = 2131296321;
 			
 			// aapt resource value: 0x7f09003b
 			public const int submit_area = 2131296315;
 			
-			// aapt resource value: 0x7f09005e
-			public const int switch1 = 2131296350;
+			// aapt resource value: 0x7f090059
+			public const int switch1 = 2131296345;
 			
-			// aapt resource value: 0x7f090060
-			public const int switch2 = 2131296352;
+			// aapt resource value: 0x7f09005b
+			public const int switch2 = 2131296347;
 			
 			// aapt resource value: 0x7f09000a
 			public const int tabMode = 2131296266;
 			
-			// aapt resource value: 0x7f090046
-			public const int textView1 = 2131296326;
-			
-			// aapt resource value: 0x7f09004e
-			public const int textView2 = 2131296334;
-			
-			// aapt resource value: 0x7f090047
-			public const int textView3 = 2131296327;
-			
-			// aapt resource value: 0x7f090056
-			public const int textView6 = 2131296342;
-			
 			// aapt resource value: 0x7f090045
-			public const int text_ll = 2131296325;
+			public const int textView1 = 2131296325;
+			
+			// aapt resource value: 0x7f09004d
+			public const int textView2 = 2131296333;
+			
+			// aapt resource value: 0x7f090046
+			public const int textView3 = 2131296326;
+			
+			// aapt resource value: 0x7f090044
+			public const int text_ll = 2131296324;
 			
 			// aapt resource value: 0x7f09002d
 			public const int title = 2131296301;
