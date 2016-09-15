@@ -4,80 +4,199 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:id="@+id/linearLayout1">
-    <EditText
+    android:id="@+id/linearLayout1"
+    android:paddingTop="0dp">
+    <LinearLayout
+        android:id="@+id/header_ll"
+        android:orientation="horizontal"
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:textSize="40dp"
-        local:MvxBind="Text Name, Mode=OneWayToSource"
-        android:id="@+id/editText1" />
-    <TextView
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:textSize="40dp"
-        local:MvxBind="Text Name, Mode=OneWay"
-        android:text="Quick Status"
-        android:id="@+id/textView1" />
-    <RadioGroup
-        android:minWidth="25px"
-        android:minHeight="25px"
+        android:layout_height="40.0dp">
+        <Button
+            android:id="@+id/back_btn"
+            android:text="back"
+            android:textColor="#FFFFFF"
+            android:textSize="9sp"
+            android:layout_width="60.0dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/buttonshape"
+            android:gravity="center" />
+        <TextView
+            android:id="@+id/contacts_txtvw"
+            android:text="Status Update"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_width="264.0dp"
+            android:layout_height="match_parent"
+            android:gravity="center" />
+        <Button
+            android:id="@+id/status_btn"
+            android:text="update"
+            android:textColor="#FFFFFF"
+            android:textSize="9sp"
+            android:layout_width="60.0dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/buttonshape"
+            android:gravity="center" />
+    </LinearLayout>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/space2" />
+    <LinearLayout
+        android:id="@+id/body_ll"
+        android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/radioGroup1">
-        <RadioButton
-            android:layout_width="wrap_content"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:checked="true"
-            android:text="At Work"
-            android:id="@+id/radioButton1" />
-        <RadioButton
-            android:layout_width="wrap_content"
+            android:id="@+id/linearLayout3">
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                local:MvxBind="Text Name, Mode=OneWay"
+                android:text="Quick Status"
+                android:id="@+id/textView1" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearLayout2">
+                <Button
+                    android:text="quickanswer 1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/buttonshape"
+                    android:id="@+id/quickanswer1"
+                    android:layout_weight="0.5"
+                    android:layout_gravity="left" />
+                <Button
+                    android:text="quickanswer 2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/buttonshape"
+                    android:id="@+id/quickanswer2"
+                    android:layout_weight="0.5"
+                    android:layout_gravity="left" />
+            </LinearLayout>
+        </LinearLayout>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/space1" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Lunch"
-            android:id="@+id/radioButton2" />
-        <RadioButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Meeting"
-            android:id="@+id/radioButton3" />
-    </RadioGroup>
-    <TextView
-        android:text="Status Message"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView1" />
-    <EditText
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:textSize="40dp"
-        local:MvxBind="Text Name, Mode=OneWayToSource"
-        android:id="@+id/editText1"
-        android:layout_marginBottom="17.5dp"
-        android:layout_marginTop="0.0dp" />
-    <TextView
-        android:text="Update Location"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView1" />
-    <Switch
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/switch1" />
-    <TextView
-        android:text="Reminder "
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView1" />
-    <EditText
-        android:inputType="time"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/editText2" />
-    <Switch
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/switch2" />
+            android:id="@+id/linearLayout4">
+            <TextView
+                android:text="Status Message"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView1" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                local:MvxBind="Text Name, Mode=OneWayToSource"
+                android:id="@+id/editText1"
+                android:layout_marginBottom="17.5dp"
+                android:layout_marginTop="0.0dp"
+                android:text="custom message" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="52.5dp"
+            android:id="@+id/location_ll">
+            <LinearLayout
+                android:orientation="vertical"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/locationText_ll">
+                <TextView
+                    android:text="location"
+                    android:id="@+id/address_tv1"
+                    android:gravity="center_vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:text="some adress 123"
+                    android:id="@+id/address_tv2"
+                    android:gravity="center_vertical"
+                    android:layout_width="254.0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:layout_gravity="right"
+                    android:layout_weight="0.7" />
+            </LinearLayout>
+            <Button
+                android:text="Map"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/getLocation_btn"
+                android:background="@drawable/buttonshape"
+                android:gravity="center"
+                android:layout_gravity="right"
+                android:layout_weight="1" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="52.5dp"
+            android:id="@+id/updateLocation_ll">
+            <TextView
+                android:text="update location"
+                android:id="@+id/updateLocation_tv"
+                android:gravity="center_vertical"
+                android:layout_width="252.5dp"
+                android:layout_height="match_parent"
+                android:textSize="20dp"
+                android:layout_gravity="left"
+                android:layout_weight="0.7" />
+            <Switch
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/updateLocation_sw" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="52.5dp"
+            android:id="@+id/reminder_ll">
+            <TextView
+                android:text="reminder"
+                android:id="@+id/reminder_tv"
+                android:gravity="center_vertical"
+                android:layout_width="252.5dp"
+                android:layout_height="match_parent"
+                android:textSize="20dp"
+                android:layout_gravity="left"
+                android:layout_weight="0.5" />
+            <Button
+                android:text="05:00pm"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/reminderTime_btn"
+                android:background="@drawable/buttonshape"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_weight="0" />
+            <Switch
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/switch1"
+                android:paddingLeft="20dp"
+                android:layout_weight="0" />
+        </LinearLayout>
+    </LinearLayout>
 </LinearLayout>
