@@ -8,13 +8,45 @@
     android:minHeight="25px">
     <LinearLayout
         android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="41.0dp"
+        android:id="@+id/linearLayout2">
+        <Button
+            android:id="@+id/back_btn"
+            android:text="Back"
+            android:textColor="#FFFFFF"
+            android:textSize="9sp"
+            android:layout_width="60.0dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/buttonshape"
+            android:gravity="center" />
+        <TextView
+            android:id="@+id/contacts_txtvw"
+            android:text="Profile"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_width="264.0dp"
+            android:layout_height="match_parent"
+            android:gravity="center" />
+        <Button
+            android:id="@+id/status_btn"
+            android:text="Status"
+            android:textColor="#FFFFFF"
+            android:textSize="9sp"
+            android:layout_width="60.0dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/buttonshape"
+            android:gravity="center" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
         android:minWidth="25px"
         android:minHeight="25px"
         android:layout_width="match_parent"
         android:layout_height="250dp"
         android:id="@+id/linearLayout1">
         <ImageView
-            android:src="@drawable/IMG_2500"
+            android:src="@android:drawable/ic_menu_gallery"
             android:layout_width="match_parent"
             android:layout_height="249.5dp"
             android:scaleType="centerCrop"
@@ -37,21 +69,13 @@
             android:textSize="30dp"
             android:textColor="#ffffffff" />
     </LinearLayout>
-    <LinearLayout
-        android:orientation="horizontal"
-        android:minWidth="25px"
-        android:minHeight="25px"
+    <TextView
+        android:text="Department: Human Resources"
+        android:id="@+id/textView2"
+        android:textSize="15dp"
+        android:gravity="center_horizontal"
         android:layout_width="match_parent"
-        android:layout_height="33.5dp"
-        android:id="@+id/linearLayout3">
-        <TextView
-            android:text="Department: Human Resources"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:id="@+id/textView2"
-            android:textSize="15dp"
-            android:gravity="center_horizontal" />
-    </LinearLayout>
+        android:layout_height="wrap_content" />
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"
@@ -62,12 +86,17 @@
             android:layout_width="296.0dp"
             android:layout_height="match_parent"
             android:id="@+id/textView3"
-            android:gravity="center" />
+            android:gravity="center_vertical"
+            android:paddingLeft="40dp" />
         <Button
             android:text="Call"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:id="@+id/button1" />
+            android:id="@+id/button1"
+            android:background="@drawable/buttonshape"
+            android:gravity="center"
+            android:layout_gravity="right"
+            android:layout_weight="1" />
     </LinearLayout>
     <LinearLayout
         android:orientation="horizontal"
@@ -79,12 +108,17 @@
             android:layout_width="296.0dp"
             android:layout_height="match_parent"
             android:id="@+id/textView3"
-            android:gravity="center" />
+            android:gravity="center_vertical"
+            android:paddingLeft="40dp" />
         <Button
             android:text="E-mail"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:id="@+id/button2" />
+            android:id="@+id/button2"
+            android:background="@drawable/buttonshape"
+            android:gravity="center"
+            android:layout_gravity="right"
+            android:layout_weight="1" />
     </LinearLayout>
     <LinearLayout
         android:orientation="horizontal"
@@ -98,12 +132,17 @@
             android:layout_width="296.0dp"
             android:layout_height="match_parent"
             android:id="@+id/textView3"
-            android:gravity="center" />
+            android:gravity="center_vertical"
+            android:paddingLeft="40dp" />
         <Button
             android:text="Request"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:id="@+id/button2" />
+            android:id="@+id/button2"
+            android:background="@drawable/buttonshape"
+            android:gravity="center"
+            android:layout_gravity="right"
+            android:layout_weight="1" />
     </LinearLayout>
     <LinearLayout
         android:orientation="horizontal"
@@ -115,11 +154,16 @@
             android:layout_width="296.0dp"
             android:layout_height="match_parent"
             android:id="@+id/textView3"
-            android:gravity="center" />
+            android:gravity="center_vertical"
+            android:paddingLeft="40dp" />
         <Button
-            android:text="Map it"
+            android:text="Map"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:id="@+id/button3" />
+            android:id="@+id/button3"
+            android:background="@drawable/buttonshape"
+            android:gravity="center"
+            android:layout_gravity="right"
+            android:layout_weight="1" />
     </LinearLayout>
 </LinearLayout>

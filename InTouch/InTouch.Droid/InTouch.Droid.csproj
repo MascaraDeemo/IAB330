@@ -8,7 +8,7 @@
     <OutputType>Library</OutputType>
     <RootNamespace>InTouch.Droid</RootNamespace>
     <AssemblyName>InTouch.Droid</AssemblyName>
-    <TargetFrameworkVersion>v6.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v7.0</TargetFrameworkVersion>
     <AndroidApplication>True</AndroidApplication>
     <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
     <AndroidResgenClass>Resource</AndroidResgenClass>
@@ -73,9 +73,6 @@
       <HintPath>..\packages\MvvmCross.Binding.4.2.2\lib\MonoAndroid\MvvmCross.Localization.dll</HintPath>
     </Reference>
     <Reference Include="Mono.Android.Export" />
-    <Reference Include="Refractored.Controls.CircleImageView">
-      <HintPath>..\packages\Refractored.Controls.CircleImageView.1.0.1\lib\MonoAndroid10\Refractored.Controls.CircleImageView.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Resources\Resource.designer.cs" />
@@ -92,6 +89,59 @@
     <None Include="Properties\AndroidManifest.xml" />
     <None Include="Assets\AboutAssets.txt" />
     <None Include="packages.config" />
+    <None Include="Themes\Dark\Views\Widget.Wrapper.cshtml" />
+    <None Include="Themes\Dark\Views\Top.cshtml" />
+    <None Include="Themes\Dark\Views\T3.cshtml" />
+    <None Include="Themes\Dark\Views\T2.cshtml" />
+    <None Include="Themes\Dark\Views\T1.cshtml" />
+    <None Include="Themes\Dark\Views\Q4.cshtml" />
+    <None Include="Themes\Dark\Views\Q3.cshtml" />
+    <None Include="Themes\Dark\Views\Q2.cshtml" />
+    <None Include="Themes\Dark\Views\Q1.cshtml" />
+    <None Include="Themes\Dark\Views\Layout.cshtml" />
+    <None Include="Themes\Dark\Views\DocumentNoSearch.cshtml" />
+    <None Include="Themes\Dark\Views\Document.cshtml" />
+    <None Include="Themes\Dark\Views\Content.cshtml" />
+    <None Include="Themes\Dark\Theme.txt" />
+    <None Include="Themes\Dark\Theme.png" />
+    <None Include="Themes\Dark\Styles\site.css" />
+    <None Include="Themes\Dark\Styles\C01.TM.png" />
+    <None Include="Themes\Dark\Styles\C01.TL.png" />
+    <None Include="Themes\Dark\Styles\C01.BR.png" />
+    <None Include="Themes\Dark\Instructions.txt" />
+    <None Include="Themes\Dark\Content\Images\topbanner.TR.png" />
+    <None Include="Themes\Dark\Content\Images\topbanner.TM.png" />
+    <None Include="Themes\Dark\Content\Images\topbanner.TL.png" />
+    <None Include="Themes\Dark\Content\Images\topbanner.MR.png" />
+    <None Include="Themes\Dark\Content\Images\topbanner.ML.png" />
+    <None Include="Themes\Dark\Content\Images\topbanner.BR.png" />
+    <None Include="Themes\Dark\Content\Images\topbanner.BM.png" />
+    <None Include="Themes\Dark\Content\Images\topbanner.BL.png" />
+    <None Include="Themes\Dark\Content\Images\submenu.arrow.png" />
+    <None Include="Themes\Dark\Content\Images\search.bg.png" />
+    <None Include="Themes\Dark\Content\Images\page.bg.lights.png" />
+    <None Include="Themes\Dark\Content\Images\page.bg.dots.png" />
+    <None Include="Themes\Dark\Content\Images\menuVitem.png" />
+    <None Include="Themes\Dark\Content\Images\menuV.TR.png" />
+    <None Include="Themes\Dark\Content\Images\menuV.TL.png" />
+    <None Include="Themes\Dark\Content\Images\menu.bg.png" />
+    <None Include="Themes\Dark\Content\Images\menu.arrow.png" />
+    <None Include="Themes\Dark\Content\Images\logo.png" />
+    <None Include="Themes\Dark\Content\Images\inputbtn.png" />
+    <None Include="Themes\Dark\Content\Images\header.shadow.png" />
+    <None Include="Themes\Dark\Content\Images\footerimage.demo.png" />
+    <None Include="Themes\Dark\Content\Images\footer.R.png" />
+    <None Include="Themes\Dark\Content\Images\footer.M.png" />
+    <None Include="Themes\Dark\Content\Images\footer.L.png" />
+    <None Include="Themes\Dark\Content\Images\footer.bg.png" />
+    <None Include="Themes\Dark\Content\Images\Flags\pt-PT.gif" />
+    <None Include="Themes\Dark\Content\Images\Flags\en-US.gif" />
+    <None Include="Themes\Dark\Content\Images\DarkHeader.jpg" />
+    <None Include="Themes\Dark\Content\Images\contentimage.demo.jpg" />
+    <None Include="Themes\Dark\Content\Images\breadcrumb.sep.png" />
+    <None Include="Themes\Dark\Content\Images\breadcrumb.home.png" />
+    <None Include="Themes\Dark\Content\Images\breadcrumb.bg.png" />
+    <None Include="Themes\Dark\Content\Images\banner.demo.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\layout\" />
@@ -111,14 +161,7 @@
     <AndroidResource Include="Resources\layout\Settings.axml" />
     <AndroidResource Include="Resources\layout\Contacts.axml" />
     <AndroidResource Include="Resources\drawable\buttonshape.xml" />
-    <AndroidResource Include="Resources\drawable\IMG_0788.JPG" />
-    <AndroidResource Include="Resources\drawable\IMG_0906.JPG" />
-    <AndroidResource Include="Resources\drawable\IMG_0907.JPG" />
-    <AndroidResource Include="Resources\drawable\IMG_1192.JPG" />
-    <AndroidResource Include="Resources\drawable\IMG_1401.JPG" />
-    <AndroidResource Include="Resources\drawable\IMG_1819.JPG" />
     <AndroidResource Include="Resources\layout\PersonalProfile.axml" />
-    <AndroidResource Include="Resources\drawable\IMG_2500.JPG" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\InTouch.Core\InTouch.Core.csproj">
