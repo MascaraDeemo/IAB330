@@ -182,15 +182,10 @@
                 android:textSize="20dp"
                 android:layout_gravity="left"
                 android:layout_weight="0.5" />
-            <Button
-                android:text="05:00pm"
+            <TextClock
                 android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:id="@+id/reminderTime_btn"
-                android:background="@drawable/buttonshape"
-                android:gravity="center"
-                android:layout_gravity="center"
-                android:layout_weight="0" />
+                android:layout_height="wrap_content"
+                android:id="@+id/textClock1" />
             <Switch
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"

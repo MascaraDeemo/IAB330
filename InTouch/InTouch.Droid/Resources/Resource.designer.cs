@@ -1054,9 +1054,6 @@ namespace InTouch.Droid
 			// aapt resource value: 0x7f090031
 			public const int radio = 2131296305;
 			
-			// aapt resource value: 0x7f090065
-			public const int reminderTime_btn = 2131296357;
-			
 			// aapt resource value: 0x7f090063
 			public const int reminder_ll = 2131296355;
 			
@@ -1131,6 +1128,9 @@ namespace InTouch.Droid
 			
 			// aapt resource value: 0x7f09000a
 			public const int tabMode = 2131296266;
+			
+			// aapt resource value: 0x7f090065
+			public const int textClock1 = 2131296357;
 			
 			// aapt resource value: 0x7f090045
 			public const int textView1 = 2131296325;
