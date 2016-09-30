@@ -35,6 +35,10 @@
     <Compile Include="ViewModels\FirstViewModel.cs" />
     <Compile Include="App.cs" />
     <Compile Include="ViewModels\SettingsModel.cs" />
+    <Compile Include="ViewModels\AnswerModel.cs" />
+    <Compile Include="ViewModels\ContactsModel.cs" />
+    <Compile Include="ViewModels\PersonalProfileModel.cs" />
+    <Compile Include="ViewModels\StatusModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core">
