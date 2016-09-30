@@ -162,6 +162,7 @@
     <AndroidResource Include="Resources\layout\Contacts.axml" />
     <AndroidResource Include="Resources\drawable\buttonshape.xml" />
     <AndroidResource Include="Resources\layout\PersonalProfile.axml" />
+    <AndroidResource Include="Resources\layout\Answer.axml" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\InTouch.Core\InTouch.Core.csproj">

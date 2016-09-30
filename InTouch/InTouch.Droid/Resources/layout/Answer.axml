@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="40dp"
+    android:paddingRight="40dp">
+    <LinearLayout
+        android:id="@+id/contactRow_ll"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minWidth="25px"
+        android:minHeight="25px">
+        <ImageView
+            android:id="@+id/profilePicture_iv"
+            android:src="@android:drawable/ic_menu_gallery"
+            android:layout_width="60dp"
+            android:layout_height="60dp" />
+        <LinearLayout
+            android:id="@+id/text_ll"
+            android:orientation="vertical"
+            android:layout_width="175dp"
+            android:layout_height="47.0dp"
+            android:baselineAligned="true"
+            android:gravity="center"
+            android:layout_gravity="left"
+            android:layout_weight="3">
+            <TextView
+                android:maxLines="9"
+                android:text="Sam Zhou"
+                android:id="@+id/textView1"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:typeface="normal"
+                android:textAppearance="@android:style/TextAppearance.Material.Headline"
+                android:gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="Last Status: at work"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView3" />
+        </LinearLayout>
+    </LinearLayout>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/space2" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout3">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Quick Answer"
+            android:id="@+id/textView1" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout2">
+            <Button
+                android:text="quickanswer 1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttonshape"
+                android:id="@+id/quickanswer1"
+                android:layout_weight="0.5"
+                android:layout_gravity="left" />
+            <Button
+                android:text="quickanswer 2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttonshape"
+                android:id="@+id/quickanswer2"
+                android:layout_weight="0.5"
+                android:layout_gravity="left" />
+        </LinearLayout>
+    </LinearLayout>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/space2" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout4">
+        <TextView
+            android:text="Message"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView1" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText1"
+            android:layout_marginBottom="17.5dp"
+            android:layout_marginTop="0.0dp"
+            android:text="custom message" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="52.5dp"
+        android:id="@+id/location_ll">
+        <LinearLayout
+            android:orientation="vertical"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/locationText_ll">
+            <TextView
+                android:text="location"
+                android:id="@+id/address_tv1"
+                android:gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="some adress 123"
+                android:id="@+id/address_tv2"
+                android:gravity="center_vertical"
+                android:layout_width="254.0dp"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_gravity="right"
+                android:layout_weight="0.7" />
+        </LinearLayout>
+        <Button
+            android:text="Map"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/getLocation_btn"
+            android:background="@drawable/buttonshape"
+            android:gravity="center"
+            android:layout_gravity="right"
+            android:layout_weight="1" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="52.5dp"
+        android:id="@+id/updateLocation_ll">
+        <TextView
+            android:text="update location"
+            android:id="@+id/updateLocation_tv"
+            android:gravity="center_vertical"
+            android:layout_width="252.5dp"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:layout_gravity="left"
+            android:layout_weight="0.7" />
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/updateLocation_sw" />
+    </LinearLayout>
+</LinearLayout>
