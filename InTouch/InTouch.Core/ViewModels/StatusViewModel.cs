@@ -2,21 +2,21 @@
 
 namespace InTouch.Core.ViewModels
 {
-	public class StatusModel
+	public class StatusViewModel
 		: MvxViewModel
 	{
 		public IMvxCommand BackButton
 		{
 			get
 			{
-				return new MvxCommand(() => ShowViewModel<ContactsModel>());
+				return new MvxCommand(() => ShowViewModel<ContactsViewModel>());
 			}
 		}
 		public IMvxCommand UpdateStatusButton
 		{
 			get
 			{
-				return new MvxCommand(() => ShowViewModel<ContactsModel>());
+				return new MvxCommand(() => ShowViewModel<ContactsViewModel>());
 			}
 		}
 

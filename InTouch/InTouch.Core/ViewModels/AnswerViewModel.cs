@@ -3,7 +3,7 @@
 
 namespace InTouch.Core.ViewModels
 {
-	public class AnswerModel
+	public class AnswerViewModel
 		: MvxViewModel
 	{
 		

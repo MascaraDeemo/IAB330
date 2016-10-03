@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:local="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
+    android:id="@+id/linearLayout1"
     android:minWidth="25px"
     android:minHeight="25px">
     <LinearLayout
@@ -18,7 +20,8 @@
             android:layout_width="60.0dp"
             android:layout_height="match_parent"
             android:background="@drawable/buttonshape"
-            android:gravity="center" />
+            android:gravity="center"
+            local:MvxBind="Click SettingsButton" />
         <TextView
             android:id="@+id/contacts_txtvw"
             android:text="Contacts"
@@ -35,7 +38,8 @@
             android:layout_width="60.0dp"
             android:layout_height="match_parent"
             android:background="@drawable/buttonshape"
-            android:gravity="center" />
+            android:gravity="center"
+            local:MvxBind="Click StatusButton" />
     </LinearLayout>
     <LinearLayout
         android:id="@+id/contactRow_ll"

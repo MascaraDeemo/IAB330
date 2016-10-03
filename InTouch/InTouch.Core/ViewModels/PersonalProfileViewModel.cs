@@ -2,14 +2,14 @@
 
 namespace InTouch.Core.ViewModels
 {
-	public class PersonalProfileModel
+	public class PersonalProfileViewModel
 		: MvxViewModel
 	{
 		public IMvxCommand BackButton
 		{
 			get
 			{
-				return new MvxCommand(() => ShowViewModel<ContactsModel>());
+				return new MvxCommand(() => ShowViewModel<ContactsViewModel>());
 			}
 		}
 
