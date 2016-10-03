@@ -1,10 +1,24 @@
-﻿using System;
-namespace InTouch.Core
+﻿using MvvmCross.Core.ViewModels;
+
+namespace InTouch.Core.ViewModels
 {
 	public class ContactsModel
+		: MvxViewModel
 	{
-		public ContactsModel()
+		public IMvxCommand StatusButton
 		{
+			get
+			{
+				return new MvxCommand(() => ShowViewModel<StatusModel>());
+			}
 		}
+		public IMvxCommand SettingsButton
+		{
+			get
+			{
+				return new MvxCommand(() => ShowViewModel<SettingsModel>());
+			}
+		}
+
 	}
 }

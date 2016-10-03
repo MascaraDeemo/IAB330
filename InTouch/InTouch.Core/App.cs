@@ -11,7 +11,7 @@ namespace InTouch.Core
                 .AsInterfaces()
                 .RegisterAsLazySingleton();
 
-            RegisterAppStart<ViewModels.FirstViewModel>();
+			RegisterAppStart<ViewModels.FirstViewModel>();
         }
     }
 }

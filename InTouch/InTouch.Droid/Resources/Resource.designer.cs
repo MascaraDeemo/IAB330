@@ -916,8 +916,8 @@ namespace InTouch.Droid
 			// aapt resource value: 0x7f090018
 			public const int beginning = 2131296280;
 			
-			// aapt resource value: 0x7f090061
-			public const int body_ll = 2131296353;
+			// aapt resource value: 0x7f090062
+			public const int body_ll = 2131296354;
 			
 			// aapt resource value: 0x7f09005c
 			public const int button1 = 2131296348;
@@ -1108,8 +1108,8 @@ namespace InTouch.Droid
 			// aapt resource value: 0x7f09000f
 			public const int showTitle = 2131296271;
 			
-			// aapt resource value: 0x7f090062
-			public const int space1 = 2131296354;
+			// aapt resource value: 0x7f090061
+			public const int space1 = 2131296353;
 			
 			// aapt resource value: 0x7f090043
 			public const int space2 = 2131296323;

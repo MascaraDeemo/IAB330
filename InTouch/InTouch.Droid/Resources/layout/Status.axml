@@ -19,7 +19,8 @@
             android:layout_width="60.0dp"
             android:layout_height="match_parent"
             android:background="@drawable/buttonshape"
-            android:gravity="center" />
+            android:gravity="center"
+            local:MvxBind="Click BackButton" />
         <TextView
             android:id="@+id/contacts_txtvw"
             android:text="Status Update"
@@ -36,7 +37,8 @@
             android:layout_width="60.0dp"
             android:layout_height="match_parent"
             android:background="@drawable/buttonshape"
-            android:gravity="center" />
+            android:gravity="center"
+            local:MvxBind="Click UpdateStatusButton" />
     </LinearLayout>
     <Space
         android:layout_width="match_parent"
