@@ -13,7 +13,7 @@ namespace InTouch.Droid
 
         protected override IMvxApplication CreateApp()
         {
-            return new InTouch.Core.App();
+            return new Core.App();
         }
 
         protected override IMvxTrace CreateDebugTrace()

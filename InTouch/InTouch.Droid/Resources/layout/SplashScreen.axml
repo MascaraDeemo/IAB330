@@ -3,15 +3,8 @@
     android:orientation="vertical"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent">
-    <Space
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/space1"
-        android:minHeight="100dp" />
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="110.0dp"
-        android:text="Starting App ..."
-        android:id="@+id/textView1"
-        android:paddingLeft="140dp" />
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Loading...." />
 </LinearLayout>
