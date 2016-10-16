@@ -11,7 +11,7 @@ namespace InTouch.Droid.Views
 		protected override void OnCreate(Bundle bundle)
 		{
 			base.OnCreate(bundle);
-			SetContentView(Resource.Layout.Status);
+			SetContentView(Resource.Layout.Contacts);
 		}
         public static MobileServiceClient MobileService = new MobileServiceClient
     ("https://intouch2cg.azurewebsites.net"
