@@ -1,0 +1,10 @@
+/Users/Sam/IAB330/InTouch2CG_Runtime/InTouch2CGService/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/Sam/IAB330/InTouch2CG_Runtime/InTouch2CGService/bin/Microsoft.Azure.Mobile.Server.dll
+/Users/Sam/IAB330/InTouch2CG_Runtime/InTouch2CGService/bin/Microsoft.Azure.Mobile.Server.Authentication.dll
+/Users/Sam/IAB330/InTouch2CG_Runtime/InTouch2CGService/bin/Microsoft.Azure.Mobile.Server.Notifications.dll
+/Users/Sam/IAB330/InTouch2CG_Runtime/InTouch2CGService/bin/Microsoft.Azure.Mobile.Server.Tables.dll
+/Users/Sam/IAB330/InTouch2CG_Runtime/InTouch2CGService/bin/Microsoft.Azure.Mobile.Server.Entity.dll
+/Users/Sam/IAB330/InTouch2CG_Runtime/InTouch2CGService/bin/Microsoft.Azure.Mobile.Server.Home.dll
+/Users/Sam/IAB330/InTouch2CG_Runtime/InTouch2CGService/bin/Microsoft.Azure.Mobile.Server.Quickstart.dll
+/Users/Sam/IAB330/InTouch2CG_Runtime/InTouch2CGService/bin/System.Net.Http.Primitives.dll
+/Users/Sam/IAB330/InTouch2CG_Runtime/InTouch2CGService/bin/System.Net.Http.Extensions.dll
